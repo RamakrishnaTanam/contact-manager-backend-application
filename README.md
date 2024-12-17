@@ -50,4 +50,10 @@ DB_URI: MongoDB connection URI (replace with your actual connection string).
 JWT_SECRET: Secret key for JWT authentication.
 PORT: Port number for the application to run on.
 
+**
+Run the application:**
+
+npm start
+The server will start running on http://localhost:5000.
+
    
