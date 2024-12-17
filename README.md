@@ -40,4 +40,14 @@ Make sure you have the following installed:
 2.**Install the dependencies:**
 
 npm install
+
+**Set up environment variables: Create a .env file in the root of the project and add the following variables:**
+
+DB_URI=mongodb://localhost:27017/contact-manager
+JWT_SECRET=your-secret-key
+PORT=5000
+DB_URI: MongoDB connection URI (replace with your actual connection string).
+JWT_SECRET: Secret key for JWT authentication.
+PORT: Port number for the application to run on.
+
    
