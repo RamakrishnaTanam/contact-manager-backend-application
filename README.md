@@ -36,10 +36,11 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/your-username/contact-manager-backend-application.git
    cd contact-manager-backend-application
+
    
 2.**Install the dependencies:**
 
-npm install
+**npm install**
 
 **Set up environment variables: Create a .env file in the root of the project and add the following variables:**
 
