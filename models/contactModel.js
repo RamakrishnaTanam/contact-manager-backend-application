@@ -18,6 +18,11 @@ const contactSchema = new mongoose.Schema({
   createdAt: {
     type: Date,
     default: Date.now,
+
+    
+    const Contact = mongoose.model('Contact', contactSchema);
+
+    module.exports = Contact;
   },
 });
 
